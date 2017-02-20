@@ -4,7 +4,7 @@ import styles from './Main.styl'
 
 const cx = classNames.bind(styles)
 
-export default class Checkboxes extends Component {
+export default class Main extends Component {
   static propTypes = {
   }
 
@@ -17,8 +17,8 @@ export default class Checkboxes extends Component {
         className={cx('main')}
       >
         Redux/react boilerplate!
+        Resh was here.
       </div>
     )
   }
 }
-

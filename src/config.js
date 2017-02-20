@@ -19,8 +19,8 @@ export default Object.assign({
   apiRemoteServerPort: process.env.API_REMOTE_SERVER_PORT || '80',
   prefix: environment.isProduction ? '/web' : '',
   app: {
-    title: 'mg',
-    description: 'moyGrafik',
+    title: 'Rest tools',
+    description: 'Tracker, tasks, mindmaps, and other productivity tools',
     head: {
       titleTemplate: '%s',
       meta: [
